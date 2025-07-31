@@ -9,7 +9,7 @@
 <body>
 
     <?php      
-        include "header.php"
+        include "../includes/header.php"
     ?>
 
     <main>
@@ -18,7 +18,7 @@
     </main>
 
     <?php      
-        include "footer.php"
+        include "../includes/footer.php"
     ?>
 
 
