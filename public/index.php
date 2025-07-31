@@ -14,6 +14,22 @@
 
     <main>
 
+    <?php
+    session_start();
+    ?>
+
+    <div class="form-container">
+    <h2>Contactez-nous</h2>
+    <form action="tp.php" method="POST">
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" name="nom">
+
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age">
+
+      <button type="submit">Envoyer</button>
+    </form>
+    </div>
 
     </main>
 
