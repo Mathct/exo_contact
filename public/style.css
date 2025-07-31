@@ -1,0 +1,27 @@
+header{
+    color: white;
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+main{
+    height: 100px;
+}
