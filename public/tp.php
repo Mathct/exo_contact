@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $_SESSION['contacts'][] = $newContact;
 
-    // Redirige vers une autre page pour affichage
+    // Redirige vers une autre page
     header('Location: confirmation.php');
     exit();
 
