@@ -1,6 +1,11 @@
 <?php
 session_start();
 
+if(!isset($_SESSION['contacts']))
+{
+  $_SESSION['contacts'] = [];
+}
+
 // Vérifie si le formulaire a été soumis
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
